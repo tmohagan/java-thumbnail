@@ -16,6 +16,7 @@ public class CorsConfig {
                 registry.addMapping("/generate")  
                         .allowedOrigins(
                         "http://localhost:3000",
+                        "https://java-thumbnail.onrender.com",
                         "https://www.tim-ohagan.com"
                 )   
                         .allowedMethods("GET", "POST")
