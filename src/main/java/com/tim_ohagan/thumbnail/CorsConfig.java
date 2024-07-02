@@ -14,8 +14,11 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/generate")  
-                        .allowedOrigins("http://localhost:3000")  
-                        .allowedMethods("GET", "POST") // Allow both GET and POST
+                        .allowedOrigins(
+                        "http://localhost:3000",
+                        "https://your-render-frontend-url.onrender.com"
+                )   
+                        .allowedMethods("GET", "POST")
                         .allowedHeaders("*");
             }
         };
