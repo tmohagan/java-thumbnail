@@ -1,5 +1,0 @@
-services:
-  - type: web
-    name: java-thumbnail
-    buildCommand: ./build.sh  # Path to your build script
-    startCommand: java -jar target/thumbnail-0.0.1-SNAPSHOT.jar
