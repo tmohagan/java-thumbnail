@@ -1,0 +1,37 @@
+# General
+*.class
+*.log
+*.sql
+*.sqlite
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# IDE Files
+.classpath
+.project
+.settings
+.idea
+*.iml
+.vscode
+
+# Maven
+/target
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle
+build/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Misc
+temp
